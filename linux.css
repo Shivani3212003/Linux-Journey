@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header{
+    background-color: #2c3e50;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 100px;
+    position: fixed;
+    width: 100vw;
+}
+.para{
+    background-color: #18bc9c;
+    display: flex;
+    justify-content: center;
+    height: 60vh;
+    flex-direction: column;
+    align-items: center;
+
+}
+.para p{
+    padding: 20px;
+}
+.para2{
+    background-color:#e5e2e5;
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+
+
+}
+.para2 .s1{
+    width: 400px;
+    color:  grey;
+    border: 2px solid grey;
+   border-radius: 6px;
+   padding-top: 5px;
+   padding-left: 4px;
+
+}
+.para2 .s2{
+    width: 100px;
+    color: white;
+    background-color: #18bc9c;
+    border: 8px solid #18bc9c  ; 
+    text-align: center;
+    border-radius: 6px;
+    
+}
+.title{
+    color: gray;
+    background-color:#e5e2e5  ;
+    text-align: center;font-size: 40px;
+    padding: 40px 0;
+    
+}
+.cards{
+    background-color:#e5e2e5 ;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px 8vw;
+    gap: 20px
+    
+}
+.card{
+    background-color: white;
+    width: 18vw;
+    height: 41vh;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+    
+
+
+}
+.card:hover{
+    background-color: greenyellow;
+}
+.card img{
+    border-radius: 50%;
+}
+.footer{
+    background-color:  #2C3E50;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+   
+
+
+}
+
+/* 
+
+colors:-
+header background : #2C3E50
+hero background : #18BC9C
+main background color :
+
+*/
